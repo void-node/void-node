@@ -1,16 +1,29 @@
-## Hi there 👋
+# Hi there, I'm void-node 👋
 
-<!--
-**void-node/void-node** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🛡️ Smart Contract Security Researcher & Auditor in training
 
-Here are some ideas to get you started:
+I specialize in dissecting Ethereum-based smart contracts, identifying critical vulnerabilities, and implementing robust security patterns. My goal is to make Web3 a safer place, one audit at a time.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🔍 What I'm currently working on:
+- **Vulnerability Labs**: Building a comprehensive portfolio of exploited and mitigated vulnerabilities (Reentrancy, Oracle Manipulation, etc.).
+- **Security Tooling**: Mastered **Foundry** for deep-trace testing and exploit development.
+- **Auditing**: Actively learning professional reporting standards and edge-case analysis.
+
+### 🛠️ Tech Stack:
+- **Languages**: Solidity, JavaScript/TypeScript, Python.
+- **Frameworks**: Foundry (Forge/Cast), Hardhat.
+- **Security Tools**: Slither, Mythril (learning phase).
+
+---
+
+### 📈 Lab Progress:
+- [x] **Lab 1**: Reentrancy (CEI Pattern)
+- [x] **Lab 2**: Access Control (Owner Hijacking)
+- [x] **Lab 3**: Logic Errors (Integer Overflow)
+- [x] **Lab 4**: Oracle Price Manipulation (Current Focus)
+
+---
+
+📫 **Let's secure the future together.**
