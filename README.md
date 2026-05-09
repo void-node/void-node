@@ -22,7 +22,8 @@ I specialize in dissecting Ethereum-based smart contracts, identifying critical 
 - [x] **Lab 1**: Reentrancy (CEI Pattern)
 - [x] **Lab 2**: Access Control (Owner Hijacking)
 - [x] **Lab 3**: Logic Errors (Integer Overflow)
-- [x] **Lab 4**: Oracle Price Manipulation (Current Focus)
+- [x] **Lab 4**: Oracle Price Manipulation
+- [x] **Lab 5**: Flash Loan Attack
 
 ---
 
