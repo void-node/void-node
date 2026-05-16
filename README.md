@@ -27,6 +27,7 @@ I specialize in dissecting Ethereum-based smart contracts, identifying critical 
 - [x] **Lab 6**: Signature Malleability (Cryptography Research)
 - [x] **Lab 7**: Read-Only Reentrancy (Oracle Manipulation)
 - [x] **Lab 8**: ERC-4626 Inflation Attack (Rounding Errors)
+- [x] **Lab 9**: Governance Flash Loan Attack (Vote Hijacking)
 
 ---
 
