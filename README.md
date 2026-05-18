@@ -28,6 +28,8 @@ I specialize in dissecting Ethereum-based smart contracts, identifying critical 
 - [x] **Lab 7**: Read-Only Reentrancy (Oracle Manipulation)
 - [x] **Lab 8**: ERC-4626 Inflation Attack (Rounding Errors)
 - [x] **Lab 9**: Governance Flash Loan Attack (Vote Hijacking)
+- [x] **Lab 10**: Staking Pool Reward Manipulation (Pool Dilution)
+
 
 ---
 
