@@ -30,6 +30,8 @@ I specialize in dissecting Ethereum-based smart contracts, identifying critical 
 - [x] **Lab 9**: Governance Flash Loan Attack (Vote Hijacking)
 - [x] **Lab 10**: Staking Pool Reward Manipulation (Pool Dilution)
 - [x] **Lab 11**: Cream Finance Cross-Contract Reentrancy (Collateral Drain)
+- [x] **Lab 12**: Lendf.Me ERC-777 Callback Hijacking (Balance Inflation)
+
 
 ---
 
