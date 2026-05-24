@@ -1,39 +1,38 @@
-# Hi there, I'm void-node 👋
+# void-node | Smart Contract Security Researcher
 
-### 🛡️ Smart Contract Security Researcher & Auditor in training
+Autonomous auditor focused on EVM logic, DeFi economic vectors, and cryptographic vulnerabilities. 
 
-I specialize in dissecting Ethereum-based smart contracts, identifying critical vulnerabilities, and implementing robust security patterns. My goal is to make Web3 a safer place, one audit at a time.
-
----
-
-### 🔍 What I'm currently working on:
-- **Vulnerability Labs**: Building a comprehensive portfolio of exploited and mitigated vulnerabilities (Reentrancy, Oracle Manipulation, etc.).
-- **Security Tooling**: Mastered **Foundry** for deep-trace testing and exploit development.
-- **Auditing**: Actively learning professional reporting standards and edge-case analysis.
-
-### 🛠️ Tech Stack:
-- **Languages**: Solidity, JavaScript/TypeScript, Python.
-- **Frameworks**: Foundry (Forge/Cast), Hardhat.
-- **Security Tools**: Slither, Mythril (learning phase).
+### 🛠️ Technical Arsenal
+* **Frameworks & Tools:** Foundry (Forge, Cast), Slither, Aderyn, Solc-select.
+* **Languages:** Solidity (EVM Logic).
+* **Core Focus:** Price Oracle Manipulation, Flash Loan Exploitation, Signature Malleability, ERC-4626 Share Inflation Mechanics.
 
 ---
 
-### 📈 Lab Progress:
-- [x] **Lab 1**: Reentrancy (CEI Pattern)
-- [x] **Lab 2**: Access Control (Owner Hijacking)
-- [x] **Lab 3**: Logic Errors (Integer Overflow)
-- [x] **Lab 4**: Oracle Price Manipulation
-- [x] **Lab 5**: Flash Loan Attack
-- [x] **Lab 6**: Signature Malleability (Cryptography Research)
-- [x] **Lab 7**: Read-Only Reentrancy (Oracle Manipulation)
-- [x] **Lab 8**: ERC-4626 Inflation Attack (Rounding Errors)
-- [x] **Lab 9**: Governance Flash Loan Attack (Vote Hijacking)
-- [x] **Lab 10**: Staking Pool Reward Manipulation (Pool Dilution)
-- [x] **Lab 11**: Cream Finance Cross-Contract Reentrancy (Collateral Drain)
-- [x] **Lab 12**: Lendf.Me ERC-777 Callback Hijacking (Balance Inflation)
-- [x] **Lab 13**: ERC-4626 Vault Inflation Attack (Math Rounding Down)
+### 🔬 Security Laboratory (Foundry Matrix)
 
+
+| Lab ID | Vulnerability Vector | Threat Level | Platform Target / Context | Status |
+| :--- | :--- | :---: | :--- | :---: |
+| **Lab 01** | Basic Reentrancy Attack | Medium | Token Vault | `[PASS]` |
+| **Lab 02** | Integer Overflow / Underflow | Low | Legacy ERC20 | `[PASS]` |
+| **Lab 03** | Unchecked Transfer Return Values | Medium | Staking Pool | `[PASS]` |
+| **Lab 04** | Access Control Bypass | High | Governance/Ownable | `[PASS]` |
+| **Lab 05** | Flash Loan Logic Flaws | High | Lending Protocol | `[PASS]` |
+| **Lab 06** | Signature Malleability (ECDSA s-flip) | High | Cryptographic Multi-sig | `[PASS]` |
+| **Lab 07** | ERC-4626 Share Inflation Attack | High | Yield Aggregator | `[PASS]` |
+| **Lab 08** | Read-Only Reentrancy | High | Curve/Balancer Architecture | `[PASS]` |
+| **Lab 09** | Front-running / MEV Sandwich | Medium | AMM Router | `[PASS]` |
+| **Lab 10** | Uninitialized Proxy / Delegatecall | Critical | Upgradeable Implementation | `[PASS]` |
+| **Lab 11** | Cross-Contract Reentrancy | Critical | Cream Finance Clone | `[PASS]` |
+| **Lab 12** | ERC-777 Callback Exploitation | High | Lendf.me Architecture | `[PASS]` |
+| **Lab 13** | ERC-4626 Vault Math Rounding Down | High | Tokenized Vault Shares | `[PASS]` |
+| **Lab 14** | Uniswap V3 TWAP Oracle Manipulation | High | Concentrated Liquidity Lending | `[PASS]` |
+| **Lab 15** | *Next Target: Invariant & Fuzzing Mechanics* | TBD | Protocol Economic Security | `[WIP]` |
 
 ---
 
-📫 **Let's secure the future together.**
+### 🛡️ Auditing Methodology
+1. **Static Analysis & Tooling:** Running customized Slither and Aderyn suites to identify low-hanging fruits and compilation warnings.
+2. **Manual Code Review:** Line-by-line verification of access controls, arithmetic bounds, state updates, and external integrations.
+3. **Exploit PoC Development:** Writing high-fidelity Foundry test suites with detailed trace logs (`-vvvv`) to mathematically verify the impact.
