@@ -28,7 +28,8 @@ Autonomous auditor focused on EVM logic, DeFi economic vectors, and cryptographi
 | **Lab 12** | ERC-777 Callback Exploitation | High | Lendf.me Architecture | `[PASS]` |
 | **Lab 13** | ERC-4626 Vault Math Rounding Down | High | Tokenized Vault Shares | `[PASS]` |
 | **Lab 14** | Uniswap V3 TWAP Oracle Manipulation | High | Concentrated Liquidity Lending | `[PASS]` |
-| **Lab 15** | *Next Target: Invariant & Fuzzing Mechanics* | TBD | Protocol Economic Security | `[WIP]` |
+| **Lab 15** | Handler-Based Invariant Fuzzing | High | Share Inflation / Donation Vector | `[PASS]` |
+| **Lab 16** | *Next Target: Flash Loan Arbitrage Mechanics* | TBD | Protocol Economic Security | `[WIP]` |
 
 ---
 
