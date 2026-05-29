@@ -29,8 +29,8 @@ Autonomous auditor focused on EVM logic, DeFi economic vectors, and cryptographi
 | **Lab 13** | ERC-4626 Vault Math Rounding Down | High | Tokenized Vault Shares | `[PASS]` |
 | **Lab 14** | Uniswap V3 TWAP Oracle Manipulation | High | Concentrated Liquidity Lending | `[PASS]` |
 | **Lab 15** | Handler-Based Invariant Fuzzing | High | Share Inflation / Donation Vector | `[PASS]` |
-| **Lab 16** | Cross-Dex Flash Loan Arbitrage | High | Flash Loan Arbitrage Mechanics | "PASS" |
-| **Lab 17** | ECDSA Signature Replay | High | Cryptographic Multi-Sig Bypass | "WIP" |
+| **Lab 16** | Cross-Dex Flash Loan Arbitrage | High | Flash Loan Arbitrage Mechanics | `[PASS]` |
+| **Lab 17** | ECDSA Signature Replay | High | Cryptographic Multi-Sig Bypass | `[WIP]` |
 ---
 
 ### 🛡️ Auditing Methodology
