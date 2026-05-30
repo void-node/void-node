@@ -27,7 +27,7 @@ Web3 Security Researcher & Smart Contract Auditor. Specialized in EVM execution 
 | **14** | Uniswap V3 TWAP Manipulation | Tick index shifts in low-liquidity zones | [PASS] |
 | **15** | Handler-Based Fuzzing | Target invariant testing with boundary checks | [PASS] |
 | **16** | Cross-Dex Arbitrage Bot | Multi-AMM flash loan extraction loops | [PASS] |
-| **17** | ECDSA Signature Replay | Cross-contract reuse via missing chainId/address | [PASS] |
+| **17** | ECDSA Signature Replay | Cross-contract reuse via missing chainId/address | [[PASS]] (https://github.com/void-node/My-first-smart-contract-audit-lab/commit/094ccc4842b1c8ea25c89f578883ea5cbe753d6c) |
 
 ### ⚡ Operational Notes
 * I don't write textbook audits. Everything listed above is backed by local executable PoCs, deep tracing (`-vvvv`), and stress-tested invariants.
