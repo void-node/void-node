@@ -1,39 +1,34 @@
-# void-node | Smart Contract Security Researcher
+# void-node
 
-Autonomous auditor focused on EVM logic, DeFi economic vectors, and cryptographic vulnerabilities. 
+Web3 Security Researcher & Smart Contract Auditor. Specialized in EVM execution logic, DeFi economic vectors, and breaking cryptographic implementations.
 
-### 🛠️ Technical Arsenal
-* **Frameworks & Tools:** Foundry (Forge, Cast), Slither, Aderyn, Solc-select.
-* **Languages:** Solidity (EVM Logic).
-* **Core Focus:** Price Oracle Manipulation, Flash Loan Exploitation, Signature Malleability, ERC-4626 Share Inflation Mechanics.
+### 🛠 Core Stack & Target Vectors
+* **Tools:** Foundry (Forge/Cast), Slither, Solc
+* **Focus:** Oracle Manipulation (TWAP/Spot), Complex Reentrancy Loops, Signature Malleability, ERC-4626 Share Inflation
 
----
-
-### 🔬 Security Laboratory (Foundry Matrix)
+### 🔬 Active Security Laboratory (Foundry Matrix)
 
 
-| Lab ID | Vulnerability Vector | Threat Level | Platform Target / Context | Status |
-| :--- | :--- | :---: | :--- | :---: |
-| **Lab 01** | Basic Reentrancy Attack | Medium | Token Vault | `[PASS]` |
-| **Lab 02** | Integer Overflow / Underflow | Low | Legacy ERC20 | `[PASS]` |
-| **Lab 03** | Unchecked Transfer Return Values | Medium | Staking Pool | `[PASS]` |
-| **Lab 04** | Access Control Bypass | High | Governance/Ownable | `[PASS]` |
-| **Lab 05** | Flash Loan Logic Flaws | High | Lending Protocol | `[PASS]` |
-| **Lab 06** | Signature Malleability (ECDSA s-flip) | High | Cryptographic Multi-sig | `[PASS]` |
-| **Lab 07** | ERC-4626 Share Inflation Attack | High | Yield Aggregator | `[PASS]` |
-| **Lab 08** | Read-Only Reentrancy | High | Curve/Balancer Architecture | `[PASS]` |
-| **Lab 09** | Front-running / MEV Sandwich | Medium | AMM Router | `[PASS]` |
-| **Lab 10** | Uninitialized Proxy / Delegatecall | Critical | Upgradeable Implementation | `[PASS]` |
-| **Lab 11** | Cross-Contract Reentrancy | Critical | Cream Finance Clone | `[PASS]` |
-| **Lab 12** | ERC-777 Callback Exploitation | High | Lendf.me Architecture | `[PASS]` |
-| **Lab 13** | ERC-4626 Vault Math Rounding Down | High | Tokenized Vault Shares | `[PASS]` |
-| **Lab 14** | Uniswap V3 TWAP Oracle Manipulation | High | Concentrated Liquidity Lending | `[PASS]` |
-| **Lab 15** | Handler-Based Invariant Fuzzing | High | Share Inflation / Donation Vector | `[PASS]` |
-| **Lab 16** | Cross-Dex Flash Loan Arbitrage | High | Flash Loan Arbitrage Mechanics | `[PASS]` |
-| **Lab 17** | ECDSA Signature Replay | High | Cryptographic Multi-Sig Bypass | `[WIP]` |
----
+| ID | Vulnerability / Lab Context | Focus | Status |
+| :--- | :--- | :--- | :--- |
+| **01** | Basic Reentrancy | Balance mapping update logic | [PASS] |
+| **02** | Arithmetic Underflow | Legacy compiler math bypass | [PASS] |
+| **03** | Unchecked Calls | Missing return value validations | [PASS] |
+| **04** | Access Control | Uninitialized state / modifier flaws | [PASS] |
+| **05** | Flash Loan Mechanics | Lending pool price skewing | [PASS] |
+| **06** | Signature Malleability | ECDSA s-value flipping | [PASS] |
+| **07** | ERC-4626 Share Inflation | Donation vectors / first depositor attack | [PASS] |
+| **08** | Read-Only Reentrancy | AMM pool virtual price distortions | [PASS] |
+| **09** | Front-running / MEV | Mempool transaction priority hijacking | [PASS] |
+| **10** | Uninitialized Proxies | Storage collisions & implementation wipes | [PASS] |
+| **11** | Cross-Contract Reentrancy | Multi-contract state synchronization issues | [PASS] |
+| **12** | ERC-777 Callbacks | Hook-based reentrancy loops | [PASS] |
+| **13** | Vault Math Down-rounding | ERC-4626 integer division exploitation | [PASS] |
+| **14** | Uniswap V3 TWAP Manipulation | Tick index shifts in low-liquidity zones | [PASS] |
+| **15** | Handler-Based Fuzzing | Target invariant testing with boundary checks | [PASS] |
+| **16** | Cross-Dex Arbitrage Bot | Multi-AMM flash loan extraction loops | [PASS] |
+| **17** | ECDSA Signature Replay | Cross-contract reuse via missing chainId/address | [PASS] |
 
-### 🛡️ Auditing Methodology
-1. **Static Analysis & Tooling:** Running customized Slither and Aderyn suites to identify low-hanging fruits and compilation warnings.
-2. **Manual Code Review:** Line-by-line verification of access controls, arithmetic bounds, state updates, and external integrations.
-3. **Exploit PoC Development:** Writing high-fidelity Foundry test suites with detailed trace logs (`-vvvv`) to mathematically verify the impact.
+### ⚡ Operational Notes
+* I don't write textbook audits. Everything listed above is backed by local executable PoCs, deep tracing (`-vvvv`), and stress-tested invariants.
+* Building a high-fidelity audit portfolio targeting top Immunefi / Sherlock leaderboards.
