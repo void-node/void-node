@@ -28,6 +28,7 @@ Web3 Security Researcher & Smart Contract Auditor. Specialized in EVM execution 
 | **15** | Handler-Based Fuzzing | Target invariant testing with boundary checks | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/e930d798e011258792e1565bb9359f938e2da02b) |
 | **16** | Cross-Dex Arbitrage Bot | Multi-AMM flash loan extraction loops | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/1c8f57e6b551fc1fcc33be17d95caf0ed51edf90) |
 | **17** | ECDSA Signature Replay | Cross-contract reuse via missing chainId/address | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/094ccc4842b1c8ea25c89f578883ea5cbe753d6c) |
+| **18** | Bridge Proof Forgery | Merkle tree 64-byte collision / leaf duplication | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/e511bc1abb78e303bb6a54098fe05fffb86e116b) |
 
 ### ⚡ Operational Notes
 * I don't write textbook audits. Everything listed above is backed by local executable PoCs, deep tracing (`-vvvv`), and stress-tested invariants.
