@@ -29,6 +29,7 @@ Web3 Security Researcher & Smart Contract Auditor. Specialized in EVM execution 
 | **16** | Cross-Dex Arbitrage Bot | Multi-AMM flash loan extraction loops | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/1c8f57e6b551fc1fcc33be17d95caf0ed51edf90) |
 | **17** | ECDSA Signature Replay | Cross-contract reuse via missing chainId/address | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/094ccc4842b1c8ea25c89f578883ea5cbe753d6c) |
 | **18** | Bridge Proof Forgery | Merkle tree 64-byte collision / leaf duplication | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/e511bc1abb78e303bb6a54098fe05fffb86e116b) |
+| **19** | Cross-Chain Replay | Missing chainId validation in message payload | [PASS](https://github.com/void-node/My-first-smart-contract-audit-lab/commit/5fb4e28eaa7cb760565ef8a2092cf5c5a26165a7) |
 
 ### ⚡ Operational Notes
 * I don't write textbook audits. Everything listed above is backed by local executable PoCs, deep tracing (`-vvvv`), and stress-tested invariants.
